@@ -1,0 +1,21 @@
+<view class="banner">
+  <image src="../images/banner.jpg" />
+</view>
+
+<view class="list clearfix">
+    <view class="list-item" wx:for="{{indexList}}">
+      <navigator url="bookList/bookDetails?title={{item.bookName}}&id={{item.id}}" hover-class="navigator-hover"> <image src="{{item.bookUrl}}" /></navigator>
+      <view class="book-name">
+         <navigator url="bookList/bookDetails?title={{item.bookName}}&id={{item.id}}" hover-class="navigator-hover"> {{item.bookName}}</navigator>
+     </view>
+    </view>
+
+    <view class="menus">
+      <image src="../images/menu.png" class="menu-btn" />
+      <!--<view class="menu-list" id="menu-list">
+        <view>本机书架</view>
+        <view>wifi传书</view>
+        <view>云书架</view>        
+      </view>-->
+    </view>
+</view>

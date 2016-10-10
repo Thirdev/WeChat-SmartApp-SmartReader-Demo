@@ -1,0 +1,14 @@
+.book-img{
+     border-bottom:2px solid #d92121;
+     padding-bottom: 5px;
+}
+.book-img image{
+    width: 221rpx;
+    height: 300rpx;
+}
+.book-details{
+    padding: 20rpx;
+}
+.book-name{
+    margin:10px 0;
+}

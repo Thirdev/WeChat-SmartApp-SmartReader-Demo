@@ -1,0 +1,5 @@
+<view class="book-details">
+<view class="book-img"><image src="../{{bookDetails.bookUrl}}" /></view>
+<view class="book-name">图书名称：{{bookDetails.bookName}}</view>
+<view class="book-infor">图书简介：{{bookDetails.bookInfor}}</view>
+</view>

@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index",
+    "pages/bookList/bookDetails"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#34495E",
+    "navigationBarTitleText": "小阅读",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#d92121",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/index",
+      "iconPath": "images/main.png",
+      "selectedIconPath": "images/main-s.png",
+      "text": "主页"
+    },{
+      "pagePath": "pages/layout/hot",
+      "iconPath": "images/hot.png",
+      "selectedIconPath": "images/hot-s.png",
+      "text": "最热"
+    },{
+      "pagePath": "pages/layout/new",
+      "iconPath": "images/new.png",
+      "selectedIconPath": "images/new-s.png",
+      "text": "最新"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}
